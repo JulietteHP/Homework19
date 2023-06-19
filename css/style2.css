@@ -16,7 +16,6 @@ margin:0;}
 {
 Color:  #000000;
 font-family:'Merienda One'; 
-font-size: 64px; 
 font-style: normal; 
 font-variant: normal; 
 font-weight: 700; 
@@ -198,7 +197,9 @@ img {
     width: 30%;
     min-height: min-content;
     max-height:max-content;
-    text-align: bottom;}*/
+    text-align: bottom;}
+    #bf2170
+    */
 
 hr{ 
     border: 0;

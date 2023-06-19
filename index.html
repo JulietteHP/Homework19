@@ -2,8 +2,17 @@
 <html>
     <head>
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merienda+One" /><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merienda+One" />
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amaranth" /><link> 
+        <link href="https://fonts.cdnfonts.com/css/merienda-one" rel="stylesheet">
+         </style>
+        
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amaranth" >
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/merienda-one');
+            @import url('https://fonts.cdnfonts.com/css/amaranth');
+            </style>
+        <link href="https://fonts.cdnfonts.com/css/amaranth" rel="stylesheet">
+
+       <script src="./js/index.js"> </script>
         <title>Juliette Hartel Portfolio Home page
         </title>
     </head>
@@ -17,9 +26,9 @@
                        
                 <ul class="nav-links">
                     <li class="nav-item"><a href="about.html">About</a></li>
-                    <li class="nav-item"><a href="#">Skills</a></li>
-                    <li class="nav-item"><a href="#">Work</a></li>
-                    <li class="nav-item"><a href="#">Contact</a></li>
+                    <li class="nav-item"><a href="about.html#Tools">Skills</a></li>
+                    <li class="nav-item"><a href="#Portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             
@@ -38,21 +47,41 @@
                     <h3>Applying collaborative design process
                         from inception through prototype iteration. 
                     </h3>
+                    
+    
+                  
+                  
+                 
+                 
+               
+                   <!--  <h3>Among all the aspects of the Design process I paraticulary enjoy: </div></h3>
+                
+            <div id="flight1" class="flight">
+                <img src="./images/Collaborating.png" width="10%">,
+                <img src="./images/UserInsights.png"width="10%">,
+            </div>
+            <div class="flightTwo">
+                <img src="./images/LeadingTeams.jpg"width="10%">,
+                <img src="./images/UsabilityTesting.png"width="10%">
+            </div> $("button").click( function(){ -->
                 <p></p>
                 <div>
-                    <button class="custom-btn">Resume</button>
-                    <button class="custom-btn">About</button>
+                    <button class="custom-btn">My LinkedIn</button>
+                    <a href="about.html"> <button class="custom-btn">About</button></a>
                 </div>
             </div>
         </section>
-        <Section><H1>Portfolio</H1></Section>
+<div>
+  <div class="animate" <img src="./images/UsabilityTesting.png"width="10%", style="background:#bf2170;height:100px;width:100px;position:absolute;"></div>
+
+        <Section><H1 id="Portfolio">Portfolio</H1></Section>
        <section class="section2">
         <div class="card">
             <img src="./images/Metam Portfolio Images.png" alt="Metam" style="width: 92%">
             <div class="container">
               <h4>Metham Mobile App Design - Group Project</h4>
               <p></p>
-              <button>Learn more</button>
+              <a href="Metam-Portfolio.html"> <button class="custom-btn">Learn more</button></a>
             </div>
         </div>
 
@@ -62,7 +91,7 @@
                   <h4>Pet Adoption Website Redesign</h4>
                     Cherokee Humane Society, GA - Group project
                   <p></p>
-                  <button>Learn more</button>
+                  <button>Coming soon</button>
                 </div>
         </div>
         <div class="card">
@@ -70,47 +99,65 @@
                     <div class="container">
                       <h4>Mobile App Design</h4>
                       <p></p>
-                      <button>Learn more</button>
+                      <button>Coming soon</button>
                     </div>
         </div>
        </section>
-         <footer>
-            <div>
-                    <ul class="nav-links">
-                    <li class="nav-item1"><a href="about.html">About</a></li>
-                    <li class="nav-item1"><a href="#">Skills</a></li>
-                    <li class="nav-item1"><a href="#">Work</a></li>
-                    <li class="nav-item1"><a href="#">Contact</a></li>
-                </ul>
-                </div>
-                <div class="card">
-                    <h3>Contact me</h3>
-                    <form>
-                        <label for="name">Name:</label><br>
-                        <input type="text" id="name" name="name" value="name"><br>
-                        <br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" value="email"><br><br>
-                        <label for="message">Message:</label><br>
-                        <textarea id="message" name="message" rows="5" cols="50">Please contact me about job opportunities.</textarea><br><br>
-                        <input type="submit">
-                    
-                    </form>
-                </div>
-                    <div>
-                    <h4>© Juliette Hartel 2023, all rights reserved</h4>
-                    </div>
-         </footer>
+       <hr>
+       <p></p>
+       <p></p>
+       <!-- Contact form Constructed using HTML form -->
+       <section>
+               <div class="card">
+                   <h3 id="contact">Contact me</h3>
+                   <form>
+                       <label for="name">Name:</label><br>
+                       <input type="text" id="name" name="name" value="name"><br>
+                       <br>
+                       <label for="email">Email:</label><br>
+                       <input type="email" id="email" name="email" value="email"><br><br>
+                       <label for="message">Message:</label><br>
+                       <textarea id="message" name="message" rows="5" cols="40">Send me a message here.</textarea><br><br>
+                       <input type="submit">
+                   </form>
+                   <br>
+                   <p></p>
+                   <p></p>
+               </div>
+       </section>
+       <div>
+           <br>
+           <p></p>
+           <p></p>
+       </div>
+       <footer>
+    
+           <div class="footerBar">          
+               <ul class="nav-links">
+                   <li class="nav-item1"><a href="about.html">About</a></li>
+                   <li class="nav-item1"><a href="about.html#Tools">Skills</a></li>
+                   <li class="nav-item1"><a href="index.html">Portfolio</a></li>
+                   <li class="nav-item1"><a href="#contact">Contact</a></li>
+               </ul>
+           </div>
+
+           <div class="footer">
+               <div class="footerContainer">
+                   <p class="copyright">&copy; Juliette Hartel 2023</p>
+               </div>
+           </div>
+       </footer>
 
 
-
+      <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>-->
 
     </body>
 
 
 
+<!-- how to download resume <a href = "https://www.tutorialspoint.com/page.pdf">Download PDF File</a>-->
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
 
 </html>
