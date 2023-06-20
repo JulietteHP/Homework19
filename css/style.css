@@ -163,7 +163,8 @@ section {
   gap: 20px;
 }
 .content {
-  display: inline-block; 
+  display: flex; 
+  flex-flow: column;
   justify-content: center;
   width: 88%; 
   height:max-content;
