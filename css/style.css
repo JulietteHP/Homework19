@@ -159,13 +159,15 @@ section {
 .heroImg { 
   align-self: flex-start;
   padding: 40px;
-  width:12%}
-
+  width:12%;
+  gap: 20px;
+}
 .content {
   display: inline-block; 
   justify-content: center;
   width: 88%; 
   height:max-content;
+  gap: 20px;
   margin: 10px 10px;
   }
 
